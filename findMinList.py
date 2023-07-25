@@ -4,11 +4,11 @@ list = [-1,2,3,4,-2,0]
 newl = []
 while list:
     min = list[0]
-    print(min)
+   # print(min)
     for i in range(len(list)):
         if list[i] < min:
            min = list[i]
-	   print(min)
+	#   print(min)
     newl.append(min)
     list.remove(min)
 #    if list[i] > max:
