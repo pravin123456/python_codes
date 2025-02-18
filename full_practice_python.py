@@ -284,11 +284,11 @@ printsubsequence(input, output)
 ###################### 21 ####################
 
 import csv, operator
-data = csv.reader(open('s12.csv'), delimiter=',')
-data1 = sorted(data, key=lambda kv:(int(kv[2]),kv[1],kv[0]))
-print('After sorting:')
-print(data1)
-print(int(10))
+#data = csv.reader(open('s12.csv'), delimiter=',')
+#data1 = sorted(data, key=lambda kv:(int(kv[2]),kv[1],kv[0]))
+#print('After sorting:')
+#print(data1)
+#print(int(10))
 
 ###################### 22 #####################
 
