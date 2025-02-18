@@ -214,14 +214,14 @@ d1.whats()
 
 ######################## 16 #######################
 
-with open('data1.txt', 'r') as rd:
-    rd=rd.readlines()
-k1=rd[0].split()
-l1=rd[1].split()
-l2=rd[2].split()
-s1=zip(l1,l2)
-s2=zip(k1,s1)
-print(dict(s2))
+#with open('data1.txt', 'r') as rd:
+ #   rd=rd.readlines()
+#k1=rd[0].split()
+#l1=rd[1].split()
+#l2=rd[2].split()
+#s1=zip(l1,l2)
+#s2=zip(k1,s1)
+#print(dict(s2))
 
 ######################## 17 #######################
 
